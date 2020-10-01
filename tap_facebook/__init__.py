@@ -457,7 +457,8 @@ class AdsInsights(Stream):
     bookmark_key = START_DATE_KEY
 
     invalid_insights_fields = ['impression_device', 'publisher_platform', 'platform_position',
-                               'age', 'gender', 'country', 'placement', 'region', 'dma']
+                               'device_platform', 'age', 'gender', 'country', 'placement',
+                               'region', 'dma']
 
     # pylint: disable=no-member,unsubscriptable-object,attribute-defined-outside-init
     def __attrs_post_init__(self):
@@ -565,9 +566,9 @@ INSIGHTS_BREAKDOWNS_OPTIONS = {
     'ads_insights_age_and_gender': {"breakdowns": ['age', 'gender'],
                                     "primary-keys": ['age', 'gender']},
     'ads_insights_country': {"breakdowns": ['country'], 'primary-keys': ['country']},
-    'ads_insights_platform_and_device': {"breakdowns": ['publisher_platform',
+    'ads_insights_platform_and_device': {"breakdowns": ['publisher_platform', 'device_platform',
                                                         'platform_position', 'impression_device'],
-                                         "primary-keys": ['publisher_platform',
+                                         "primary-keys": ['publisher_platform', 'device_platform',
                                                           'platform_position', 'impression_device']},
     'ads_insights_region': {'breakdowns': ['region'],
                             'primary-keys': ['region']},
