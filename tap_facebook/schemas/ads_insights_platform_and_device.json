@@ -34,6 +34,12 @@
         "string"
       ]
     },
+    "device_platform": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
     "clicks": {
       "type": [
         "null",
