@@ -105,6 +105,12 @@
     "cost_per_inline_post_engagement": {
       "type": ["null", "number"]
     },
+    "cost_per_thruplay": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
     "inline_link_click_ctr": {
       "type": ["null", "number"]
     },
