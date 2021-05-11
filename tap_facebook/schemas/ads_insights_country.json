@@ -10,6 +10,7 @@
     "outbound_clicks": {"$ref": "ads_action_stats.json"},
     "video_15_sec_watched_actions": {"$ref": "ads_action_stats.json"},
     "unique_outbound_clicks": {"$ref": "ads_action_stats.json"},
+    "unique_video_view_15_sec": {"$ref": "ads_action_stats.json"},
     "video_30_sec_watched_actions": {"$ref": "ads_action_stats.json"},
     "video_p25_watched_actions": {"$ref": "ads_action_stats.json"},
     "video_p50_watched_actions": {"$ref": "ads_action_stats.json"},
